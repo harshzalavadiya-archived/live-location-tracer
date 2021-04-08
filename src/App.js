@@ -1,12 +1,6 @@
 import "./styles.css";
 import React, { useEffect, useState } from "react";
-import {
-  MapContainer,
-  TileLayer,
-  Marker,
-  Polyline,
-  Popup
-} from "react-leaflet";
+import { MapContainer, TileLayer, Polyline } from "react-leaflet";
 import { usePosition } from "./use-location";
 
 export default function App() {
